@@ -1,0 +1,52 @@
+body{
+    background-image:url(../images/background.jpg);
+    width:auto;
+    height:auto;
+}
+#jeu{
+    width:420px;
+    height: 500px;
+    background-color: transparent;
+    border: 1px solid #555;
+    margin: 30px auto;
+    box-shadow:20px 20px 20px #bbb;
+    padding: 10px;
+    overflow: auto;   
+}
+
+#jeu div{
+    width:400px;
+    height: auto;
+    margin: 6px;
+    text-align: center;
+    clear: both;
+}
+
+#jeu button{
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+    /*margin: 3px ;
+*/
+    margin: 1%;
+    padding: 11%;
+
+    float: center;
+    font-weight: bold;
+    font-size: 30px; 
+    border-radius: 0.5rem;
+}
+ 
+#jeu button:hover{
+    background-color: grey;
+}
+
+#gameStatus{
+    color: black;
+    padding: 15px 10px; 
+    font-size: 20px;
+}
+
+.lien{
+    color:wheat;
+}
